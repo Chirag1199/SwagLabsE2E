@@ -1,0 +1,63 @@
+//Login Page -
+
+username - #user-name - standard_user
+password - #password - secret_sauce
+login btn - #login-button - click btn
+
+----
+
+Products Page: 
+
+Inventory Items name - .inventory_item_name - total 6 products.
+Inventory Items Price - .inventory_item_price - total 6 prices
+Add to cart Btns - .btn_inventory 
+
+Shopping cart Logo - .shopping_cart_link
+No of products displayed on shopping cart logo - .shopping_cart_badge
+
+-----
+
+Your Cart Page - 
+
+Checkout Btn - #checkout
+
+---
+
+Checkout Information Page -
+
+first name - #first-name
+last name - #last-name
+zip code - #postal-code
+continue btn - #continue
+
+---
+
+Checkout Overview 
+
+Inventory item price - .inventory_item_price
+Tax Price - .summary_tax_label
+Total price - tax + price of all 4 products added - .summary_total_label
+Finish Btn - #finish
+
+----
+
+Checkout COmplete page - 
+
+Thanks for the order text - .complete-header
+Order confirmation text - .complete-text
+Back Home btn - #back-to-products
+
+
+-------
+
+Home page- 
+
+Home burger menu - #react-burger-menu-btn
+Logout btn - #logout_sidebar_link
+
+---
+
+Login page - 
+
+Except url to be - https://www.saucedemo.com/
+
