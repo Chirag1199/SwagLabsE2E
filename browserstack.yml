@@ -1,0 +1,27 @@
+userName: "chiragkataria_cW3ofE"
+accessKey: "JFsyTKmTwgtQdVzb7zed"
+
+capabilities:
+  projectName: "Swag Labs E2E"
+  buildName: "Checkout Flow"
+  sessionName: "Add to Cart and Checkout Test"
+
+browsers:
+  - browser: "chrome"
+    os: "Windows"
+    osVersion: "10"
+  - browser: "firefox"
+    os: "Windows"
+    osVersion: "10"
+  - browser: "edge"
+    os: "Windows"
+    osVersion: "10"
+
+run_settings:
+  test_framework: "playwright"
+  test_path: "F:/SwagLabs/tests"       # <-- ADD THIS LINE
+  headless: false
+  video: true
+  screenshots: true
+  console_logs: true
+  network_logs: true

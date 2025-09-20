@@ -1,14 +1,12 @@
 
 import { test, expect } from '@playwright/test';
 
-test('has title', async ({ page }) => {
+test('SwagLabs E2E - Automation', async ({ page }) => {
 
     // Login Page:-
   
     await page.goto("https://www.saucedemo.com/");
-
     
-
     const usernameField = await page.locator("#user-name");
     const passwordField = await page.locator("#password");
     const loginBtn = await page.locator("#login-button");
@@ -39,9 +37,6 @@ test('has title', async ({ page }) => {
 
     await shoppingCart.click();
     
-
-
-
     // Your Cart Page:-
     
     await page.waitForTimeout(2000);
@@ -137,15 +132,6 @@ test('has title', async ({ page }) => {
 
     await page.waitForTimeout(3000); 
     await expect(page).toHaveURL('https://www.saucedemo.com/');
-
-
-
-
-
-
-
-    
-    
 
 });
 
